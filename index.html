@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>XSquareDev CV</title>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/qtcreator-dark.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div id="about-me" class="header__container _container">
+        <div class="header__top">
+          <div class="header__menu menu">
+            <button type="button" class="menu__icon icon-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#about-me" class="menu__link">About Me</a></li>
+                <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
+                <li class="menu__item"><a href="#code-example" class="menu__link">Code Example</a></li>
+                <li class="menu__item"><a href="#education" class="menu__link">Education</a></li>
+                <li class="menu__item"><a href="#languages" class="menu__link">Languages</a></li>
+                <li class="menu__item"><a href="#video" class="menu__link">Video</a></li>
+                <li class="menu__item"><a href="#projects" class="menu__link">Projects</a></li>
+                <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="header__main">
+          <div class="header__logo">
+            <a href="https://github.com/XSquareDev" target="_blank" class="header__image">
+              <img class="header__img" src="img/header/header-img.png" alt="">
+            </a>
+          </div>
+          <div class="header__body">
+            <h1 class="header__title">Vladislav <span class="header__surname">Grebenkin</span></h1>
+            <h2 class="header__subtitle">Front-end web developer</h2>
+            <p class="header__text">
+              I am 24 years old. It so happened that I tried myself in several professions and stopped at
+              programming. In what other job can you also feel like you are getting better every day?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-top">
+        <a class="scroll-top__link" href="#about-me"><img class="scroll-top__img" src="img/top.svg" alt=""></a>
+      </div>
+    </header>
+    <main class="page">
+      <section id="skills" class="skills _bg-1">
+        <div class="skills__container container">
+          <div class="skills__row">
+            <div class="skills__description description">
+              <h3 class="skills__title title">Skills</h3>
+              <p class="skills__text">These are my hard skills at the moment. </p>
+            </div>
+            <div class="skills__skills">
+              <ul class="skills__list">
+                <li class="skills__item"> <img src="img/skills/icon-1.svg" alt=""><span class="skills__name">HTML</span>
+                </li>
+                <li class="skills__item"><img src="img/skills/icon-2.svg" alt=""><span class="skills__name">CSS</span>
+                </li>
+                <li class="skills__item"><img src="img/skills/icon-3.svg" alt=""><span
+                    class="skills__name">SASS/SCSS</span></li>
+                <li class="skills__item"><img src="img/skills/icon-4.svg" alt=""><span class="skills__name">BEM</span>
+                </li>
+                <li class="skills__item"><img src="img/skills/icon-5.svg" alt=""><span
+                    class="skills__name">JavaScript</span></li>
+              </ul>
+              <ul class="skills__list">
+                <li class="skills__item"><img src="img/skills/icon-6.svg" alt=""><span
+                    class="skills__name">Git/GitHub</span></li>
+                <li class="skills__item"><img src="img/skills/icon-7.svg" alt=""><span class="skills__name">Figma</span>
+                </li>
+                <li class="skills__item"><img src="img/skills/icon-8.svg" alt=""><span class="skills__name">Adobe
+                    Photoshop</span></li>
+                <li class="skills__item"><img src="img/skills/icon-9.svg" alt=""><span
+                    class="skills__name">Zeplin</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="code-example" class="code-example _bg-2">
+        <div class="code-example__container container">
+          <div class="code-example__row">
+            <div class="code-example__description description">
+              <h3 class="code-example__title title">Code Example</h3>
+              <div class="code-example__text">
+                <span class="code-example__yellow-text">Kata</span> - Array Deep Count:
+                Your task is to create a function <span class="code-example__yellow-text">deepCount</span>
+                that
+                returns the number of ALL elements within an
+                array, including any within inner-level arrays. The input will always be an array.
+              </div>
+            </div>
+            <div class="code-example__code code">
+              <div class="code__container">
+                <pre class="code__text">
+                                    <code class="language-javascript _anim-items">
+function deepCount(arr) {
+    let countSum = arr.length;
+    for (let item of arr)
+        if (Array.isArray(item)) countSum += deepCount(item);
+    return countSum;
+}
+                                    </code>
+                                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="education _bg-1">
+        <div class="education__container container">
+          <div class="education__row">
+            <div class="education__description description">
+              <h3 class="education__title title">Education</h3>
+              <h4 class="education__subtitle">Courses:</h4>
+              <p>
+                <a class="education__link link" href="https://rs.school/">RS Schools Course «JS /
+                  FRONT-END Stage 0» (in
+                  progress)</a>
+              </p>
+            </div>
+            <div class="education__self-education self-education">
+              <h4 class="self-education__title">Self Education:</h4>
+              <div class="self-education__row">
+                <div class="self-education__column">
+                  <ul class="self-education__item">
+                    <li class="self-education__skill-name">HTML and CSS manual on:</li>
+                    <li>
+                      <a class="self-education__link link" href="http://htmlbook.ru/samhtml">htmlbook.ru/samhtml</a>
+                    </li>
+                    <li>
+                      <a class="self-education__link link" href="http://htmlbook.ru/samcss">htmlbook.ru/samcss</a>
+                    </li>
+                  </ul>
+                  <ul class="self-education__item">
+                    <li class="self-education__skill-name">Youtube lessons:</li>
+                    <li>
+                      <a class="self-education__link link"
+                        href="https://www.youtube.com/c/FreelancerLifeStyle">FreelancerLifeStyle</a>
+                    </li>
+                  </ul>
+                  <ul class="self-education__item">
+                    <li class="self-education__skill-name">GIT:</li>
+                    <li>
+                      <a class="self-education__link link" href="https://githowto.com/ru">githowto.com</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="self-education__column">
+                  <ul class="self-education__item">
+                    <li class="self-education__skill-name">JavaScript manual on:</li>
+                    <li>
+                      <a class="self-education__link link"
+                        href="https://ru.code-basics.com/languages/javascript">ru.code-basics.com</a>
+                    </li>
+                    <li>
+                      <a class="self-education__link link" href="https://learn.javascript.ru">learn.javascript.ru</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="languages" class="languages _bg-2">
+        <div class="languages__container container">
+          <div class="languages__row">
+            <div class="languages__description description">
+              <h3 class="languages__title title">Languages</h3>
+              <p class="languages__text">in progress..</p>
+            </div>
+            <div class="languages__languages">
+              <ul class="languages__list">
+                <li class="languages__item"><span class="languages__yellow">Russian</span> - Native</li>
+                <li class="languages__item"><span class="languages__yellow">English</span> - A2</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="video" class="video _bg-1">
+        <div class="video__container container">
+          <div class="video__row">
+            <div class="video__description description">
+              <h3 class="video__title title">Video</h3>
+              <p class="video__text">My presentation video should be here, but ... sorry?</p>
+            </div>
+            <div class="video__content">
+              <iframe class="video__video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects _bg-2">
+        <div class="projects__container container">
+          <div class="projects__row">
+            <div class="projects__description description">
+              <h3 class="projects__title title">Projects</h3>
+            </div>
+            <div class="projects__content">
+              <div class="projects__swm swm">
+                <a target="_blank" href="https://xsquaredev.github.io/study-with-me/"
+                  class="swm__link link-project"></a>
+                <p class="swm__title title-project">Study with me</p>
+              </div>
+              <div class="projects__museum museum">
+                <a target="_blank" href="https://xsquaredev.github.io/museum/" class="museum__link link-project"></a>
+                <p class="museum__title title-project">Museum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact" class="footer">
+      <div class="footer__container _container _anim-items">
+        <div class="footer__row">
+          <div class="footer__body">
+            <a href="https://rs.school/" target="_blank" class="footer__rs-logo"><img src="img/footer/rs-logo.svg"
+                alt=""></a>
+            <p class="footer__copyright">© Vladislav Grebenkin 2022</p>
+          </div>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="https://github.com/XSquareDev" target="_blank"> <img
+                  src="img/footer/logo-1.svg" alt="">XSquareDev</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://t.me/xsquaredeveloper/" target="_blank"><img
+                  src="img/footer/logo-2.svg" alt="">@xsquaredeveloper</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="mailto:xsquaredeveloper@gmail.com" target="_blank"><img
+                  src="img/footer/logo-3.svg" alt="">xsquaredeveloper@gmail.com</a>
+            </li>
+            <li class="footer__item footer__link">
+              <img src="img/footer/logo-4.svg" alt="">yuutsy#9406
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/app.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+</body>
+
+</html>
